@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#content::before {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6); /* Adjust the alpha for transparency level */
+  z-index: 1; /* Ensure it sits above the background image but below the content */
+}
+
+#content > * {
+  position: relative;
+  z-index: 2;
+}

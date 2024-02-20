@@ -38,10 +38,40 @@
   object-fit: cover;
 }
 
-#home {
+.image-above {
+  max-height: 131.07px !important;
+}
+
+#home,
+#about,
+#menu {
   border: 40px solid;
   border-image-source: url(/src/assets/border-image.png);
   border-image-slice: 100;
   border-image-outset: 40px 40px 40px 40px;
   border-image-repeat: repeat;
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+  animation-fill-mode: backwards;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    /* transform: scale(1) translate(-50%, -50%); */
+  }
+  100% {
+    opacity: 0.85;
+    /* transform: scale(1) translate(-50%, -50%); */
+  }
 }

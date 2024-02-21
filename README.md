@@ -26,7 +26,7 @@ I became stuck many times throughout this project,as as expected, but also learn
 
 - The key feature of Webpack is its modularity, but I was unsure as to how to structure my modules in a way that is more in-line with _when_ you use Webpack, which is obviously in much larger scale projects. In the end, I decided on how I'd organise the code, which is an app.js file that will handle the general front-page items, such as running an init function on DOMContentLoaded, creating and rendering the navbar, homepage and buttons within the navbar. I'll be placing the JavaScript required for the different menu buttons in separate modules to keep things neat. So, for example, if I decide that the div or components that are rendered in the 'Menu', I can add them there and keep everything encapsulated. I also made sure to use IIFEs in every module to keep code out of the global scope.
 
-![Local Image](./readme-images/Screenshot%202024-02-20%20154404.png)
+![Local Image](./readme-images/modules.png)
 
 ##### Creating the nav buttons
 

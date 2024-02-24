@@ -595,9 +595,6 @@ video {
 .justify-start {
   justify-content: flex-start;
 }
-.justify-center {
-  justify-content: center;
-}
 .justify-around {
   justify-content: space-around;
 }
@@ -776,10 +773,6 @@ video {
 
   .lg\:w-1\/2 {
     width: 50%;
-  }
-
-  .lg\:items-start {
-    align-items: flex-start;
   }
 
   .lg\:items-center {

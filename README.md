@@ -16,11 +16,11 @@ This project is a modern, modular front-end application designed to showcase my 
 
 This project takes a unique approach to web development, vastly different from what I'm used to at this point in my coding journey, by constructing the entire site using purely JavaScript, without relying on any static HTML files. Every element on the page, from the navigation bar to the main content, is dynamically created and rendered through JavaScript. This method not only showcases the powerful capabilities of modern JavaScript but also allows for a highly modular and dynamic development process. By leveraging JavaScript to programmatically generate the site's structure and content, it ensure maximum flexibility and scalability, making the project an excellent demonstration of advanced front-end development techniques.
 
-Without having touched a front-end framework such a React yet, I can already see how this project has set me up well with an idea as to how JavaScript can interact with the DOM by creating components through functions.
+Without having touched a front-end framework such a React yet, I feel that I have a much greater understanding of single-page applications, and how JavaScript can interact with the DOM by creating components through functions.
 
 ## Struggles
 
-I became stuck many times throughout this project,as as expected, but also learned several new concepts along the way that I will be using in future projects. I will list below some of these problems and how I solved them.
+I became stuck many times throughout this project, as expected, but also learned several new concepts along the way that I will be using in future projects. I will list below some of these problems and how I solved them.
 
 ##### Modularity
 

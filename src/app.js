@@ -5,6 +5,9 @@ import Ireine2 from './assets/ireine2.png'
 import Ireine3 from './assets/ireine3.png'
 
 
+const images = [Ireine1, Ireine2, Ireine3]; // images map
+
+
 import { HomeModule } from './HomeModule';
 import { MenuModule } from './MenuModule';
 import { AboutModule } from './AboutModule';
@@ -58,7 +61,8 @@ import { AboutModule } from './AboutModule';
                 const img = document.createElement('img')
                 div.className = `button-with-image${index + 1} flex flex-col-reverse justify-start items-center`
                 img.className = 'image-above opacity-85'
-                img.src = `/src/assets/ireine${index + 1}.png`
+                img.src = images[index];
+
 
                 img.onload = () => {
                     console.log('Image loaded successfully');
@@ -78,6 +82,7 @@ import { AboutModule } from './AboutModule';
                     btn.textContent = 'About'
                 } else btn.textContent
             }
+
 
         }
     }
